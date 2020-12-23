@@ -1,0 +1,123 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #010101;
+	font-family: monospace;
+	background-image: url(https://libreshot.com/wp-content/uploads/2018/05/field_bww.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0px -70px;
+	font-size: 150%;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+	/*background-color: #235611*/
+}
+
+.head-container {
+	margin: 40vh 24vw 100vh 24vw;
+	padding: 10px;
+	height: 150px;
+	/*border: 2px solid #fff;*/
+}
+
+.heading {
+	mix-blend-mode: difference;
+	float: left;
+	text-shadow: 3px 3px 3px #777;
+	color: #EEE;
+	font-family: Langar;
+	font-size: 400%;
+	margin: 0px 0px 0px 10px;
+	/*background-color: #511*/;
+}
+
+.head-imgs {
+	margin: 0px;
+	float: left;
+	height: 140px;
+	/*background-color: #151;*/
+}
+
+.para {
+	mix-blend-mode: difference;
+	float: left;
+	text-shadow: 3px 3px 3px #777;
+	color: #EEE;
+	font-size: 200%;
+}
+
+.skip {
+	position: fixed;
+	background:#888;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	bottom: 10px;
+}
+.profile-cont {
+	mix-blend-mode: difference;
+	text-indent: 30px;
+	margin: 180px;
+	padding: 60px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #DDD;
+	border-radius: 50px;
+}
+
+.subprofs {
+	background-color: #EEE;
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+/*	border-style: solid;
+	border-width: 5px;
+	border-color: #333;*/
+	border-radius: 10px;
+}
+
+.p-head {
+	mix-blend-mode: difference;
+	text-shadow: 3px 3px 3px #777;
+	color: #EEE;
+	font-size: 400%;
+	font-weight: 900;
+	margin: 0px 0px 0px 10px;
+}
+
+.twodiv {
+	width: 45%;
+	/*background-color: #D3E;*/
+	margin: 2.5%;
+}
+
+.threediv {
+	width: 31.33%;
+	/*background-color: #D3E;*/
+	background-color: #AAA;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+	border-color: #333;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 4px;
+}
+
+.flex-disp {
+	display: flex;
+	/*background-color:#892345;*/
+	align-items: stretch;
+	justify-content: center;
+}
+
+.proj-parts {
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px 10px -25px;
+}
